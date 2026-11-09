@@ -7,9 +7,9 @@ function ProjectsSection(){
              <h1 className="mt-10 font-mono text-gray-600 text-[0.9rem] ">&lt;projects/&gt;</h1>
              <h1 className="font-[poppins] mt-4 text-3xl font-bold text-gray-900">Project ShowCase</h1>
 
-           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 p-10 gap-10">
+           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:p-10  p-5 gap-10">
              {projects.map((project) => (
-                <div key={project.id} className="p-5 as bg-black/90 aspect-ratio-16:9 text-white rounded-2xl border border-gray-600  ">
+                <div key={project.id} className="p-5 as bg-black/90  text-white rounded-2xl border border-gray-600  ">
 
                     <div className="text-white flex justify-between mb-2 font-mono">
                         <p className="">{project.year}</p>
@@ -17,17 +17,17 @@ function ProjectsSection(){
                     </div>
 
               <div className="md:flex lg:flex md:flex-row lg:flex-col">
-                <img src={project.image} className="w-full rounded-2xl border border-white mb-3 md:w-[50%] md:left-0 lg:w-full"/>
+                <img src={project.image} className="w-full rounded-2xl p-0 border border-white mb-3 md:w-[50%] md:left-0 lg:w-full"/>
                     <div className="md:flex md:flex-col md:w-[40%] ml-4 lg:flex-col lg:w-full ">
-                        <h1 className="font-[poppins] text-2xl font-bold lg:w-full mt-2">{project.title}</h1>
-                    <p className="font-[poppins] text-[0.8rem] mb-3 mt-1 font-medium text-gray-300">{project.description}</p>
+                        <h1 className="font-[poppins] lg:text-2xl text-xl font-bold lg:w-full mt-2">{project.title}</h1>
+                    <p className="font-[poppins] lg:text-[0.8rem] text-[0.6rem] mb-3 mt-1 font-medium text-gray-300">{project.description}</p>
                     </div>
 
               </div>
                     
-                    <div className="">
+                    <div className="flex flex-wrap">
                        {project.tags.map((tag, index) => (
-                        <span key={index} className="bg-gray-300 px-2 py-1 border border-gray-500  rounded-[5px]  font-mono font-extrabold ml-2  text-[0.6rem] text-black">
+                        <span key={index} className="bg-gray-300 px-2 py-1 border border-gray-500  rounded-[5px]  font-mono font-extrabold ml-2  text-[0.6rem] text-black mt-1">
                              {tag} 
                         </span>
                        ))}
