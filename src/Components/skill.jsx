@@ -66,7 +66,7 @@ function Skill(){
 
 
               <div className="flex mt-8 mr-1 ml-1 px-4 items-center h-8 rounded-4xl justify-center gap-1 bg-white border-2 border-gray-600  ">
-            <img src="/src/assets/c++.png" className="w-3.5 h-3.5 "/>
+            <img src="./public/c++.png" className="w-3.5 h-3.5 "/>
             <span className="font-mono text-black text-[0.8rem] flex font-bold">C++</span>
            </div>
 
@@ -86,18 +86,18 @@ function Skill(){
            </div>
 
             <div className="flex mt-8 mr-1 ml-1 px-4 items-center h-8 rounded-4xl justify-center gap-1 bg-white border-2 border-gray-600  ">
-            <img src="/src/assets/cursor.png" className="w-3.5 h-3.5 "/>
+            <img src="./src/assets/cursor.png" className="w-3.5 h-3.5 "/>
             <span className="font-mono text-black text-[0.8rem] flex font-bold">Cursor</span>
            </div>
 
            <div className="flex mt-8 mr-1 ml-1 px-4 items-center h-8 rounded-4xl justify-center gap-1 bg-white border-2 border-gray-600  ">
-            <img src="/src/assets/framer.png" className="w-3.5 h-3.5 "/>
+            <img src=".//src/assets/framer.png" className="w-3.5 h-3.5 "/>
             <span className="font-mono text-black text-[0.8rem] flex font-bold">Framer</span>
            </div>
 
 
            <div className="flex mt-8 mr-1 ml-1 px-4 items-center h-8 rounded-4xl justify-center gap-1 bg-white border-2 border-gray-600  ">
-            <img src="/src/assets/figma.png" className="w-3.5 h-3.5 "/>
+            <img src="./src/assets/figma.png" className="w-3.5 h-3.5 "/>
             <span className="font-mono text-black text-[0.8rem] flex font-bold">Figma</span>
            </div>
 
