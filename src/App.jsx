@@ -5,8 +5,9 @@ import Home from './Components/home.jsx'
 import MicroBar from './Components/microbar.jsx'
 import Skill from './Components/skill.jsx'
 import About from './Components/about.jsx'
-import InteractiveDots from './Components/InteractiveDots'
-import ProjectsSection from './Components/ProjectsSection'
+import InteractiveDots from './Components/InteractiveDots.jsx'
+import ProjectsSection from './Components/ProjectsSection.jsx'
+import Contact from './Components/contact.jsx'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
                 <Skill/>
                 <About />
                 <ProjectsSection/>
+                <Contact/>
             </div>
         </div>
     )
